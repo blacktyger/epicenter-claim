@@ -1,0 +1,35 @@
+{% extends 'base.html' %} {% load static %}
+
+{% block content %}
+
+<style>
+    .claim_id:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+</style>
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-lg-6 col-md-10 col-sm-12">
+            <div class="main_app card px-3 mb-4">
+                <div class="text-center">
+                    <h1 class="card-title py-3">Epicenter IOU Claim Form</h1>
+                    <hr />
+
+
+                    <div class="footer">
+                        <hr />
+                        <div class="footer-text text-center mx-2">
+                            <a href="https://t.me/epiccashhelpdesk" target="_blank">
+                                Telegram Help Desk.
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
+{% block js %}{% endblock js %}
